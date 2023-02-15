@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "ibase=water; $WATER + stir=$STIR" | bc | tr -d '\n' | echo "bestchol="
-
